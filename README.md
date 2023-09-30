@@ -38,6 +38,32 @@ You can configure the following parameters in the script:
 
 Please make sure to keep your GitHub token and sensitive information secure.
 
+## Creating an Executable (Optional)
+
+You have the option to convert the `main.py` script into a standalone executable using PyInstaller. This can be useful if you want to distribute the application as an executable file that doesn't require users to have Python installed.
+
+To create an executable, follow these steps:
+
+1. Install PyInstaller if you haven't already:
+
+   ```bash
+   pip install pyinstaller
+   ```
+
+2. Open a terminal or command prompt and navigate to the directory where `main.py` is located.
+
+3. Run the following command to create the executable:
+
+   ```bash
+   pyinstaller --onefile main.py
+   ```
+
+   This will generate a `dist` directory containing the executable file.
+
+4. You can now distribute the executable to others. They can run the program without needing to install Python or any dependencies separately.
+
+Choose this option if you want to provide a convenient way for users to run the application without Python.
+
 ## Contributing
 
 Feel free to contribute to this project by submitting issues or pull requests.
