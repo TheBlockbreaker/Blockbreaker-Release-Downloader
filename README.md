@@ -1,5 +1,4 @@
 # Blockbreaker's GitHub Release Downloader
-![me!!!!](https://s3.emk530.net/IMG_0142.png)
 
 This Python script allows you to download the latest release from a GitHub repository, extract its contents, and store them in a specified target folder.
 
